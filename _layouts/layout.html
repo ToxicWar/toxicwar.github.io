@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			{% if page.title %}
+				{{ page.title }} &ndash;
+			{% endif %}
+			{{ site.name }}
+		</title>
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="/css/syntax.css">
+		<link rel="stylesheet" href="/css/main.css">
+
+		<meta name="author" content="{{ site.name }}" />
+		<meta name="description" content="{{ site.description }}" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="/"><b>{{ site.name }}</b></a>
+			</div>
+		</header>
+		<nav class="container">
+			<ul class="menu">
+				<li><a href="/about.html">about</a></li>
+				<li><a href="/projects.html">projects</a></li>
+			</ul>
+		</nav>
+		<section class="container content">
+			{{ content }}
+		</section>
+		<footer></footer>
+	</body>
+</html>

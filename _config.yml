@@ -1,0 +1,14 @@
+name: Anton Larkin
+url: http://toxicwar.com
+description: A fantastic blog that is fantastic.
+twitter: toxic_war
+github: toxicwar
+gravatar_url: http://ru.gravatar.com/avatar/d256089de053090019f11799ee0d595b
+
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+safe: true
+lsi: false
+pygments: true
