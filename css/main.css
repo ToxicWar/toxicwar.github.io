@@ -24,6 +24,15 @@ a:hover {
 	margin: 0 auto;
 }
 
+.avatar {
+	float: right;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+
 
 /* Header */
 header {
@@ -44,6 +53,16 @@ header a:hover {
 	text-decoration: none;
 }
 
+header .social {
+	margin-left: 40px;
+	display: inline;
+	display: -webkit-inline-box;
+}
+
+header .social a {
+	font-size: 18px;
+}
+
 
 /* Nav */
 nav .menu {
@@ -61,10 +80,21 @@ nav .menu li {
 	text-transform: uppercase;
 }
 
+nav .menu li a {
+	color: #34495e;
+	text-decoration: none;
+	transition: color 0.25s ease-in;
+	-webkit-transition: color 0.25s ease-in;
+}
+
+nav .menu li a:hover {
+	color: #2980b9;
+	text-decoration: underline;
+}
 
 /* Section */
 section .posts {
-	margin: 28px 0;
+	margin: 40px 0;
 	padding: 0;
 }
 

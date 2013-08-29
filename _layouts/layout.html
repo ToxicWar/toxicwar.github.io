@@ -8,18 +8,28 @@
 			{% endif %}
 			{{ site.name }}
 		</title>
-		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="{{ site.name }}" />
+		<meta name="description" content="{{ site.description }}" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<link rel="stylesheet" href="/css/syntax.css">
 		<link rel="stylesheet" href="/css/main.css">
-
-		<meta name="author" content="{{ site.name }}" />
-		<meta name="description" content="{{ site.description }}" />
+		<link rel="stylesheet" href="/css/fontawesome.min.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	</head>
 	<body>
 		<header>
 			<div class="container">
-				<a href="/"><b>{{ site.name }}</b></a>
+				<a href="/">
+					<img src="{{ site.gravatar_url }}?s=100" class="avatar" />
+					<b>{{ site.name }}</b>
+					<div class="social">
+						<a href="https://github.com/{{ site.github }}" target="_blank"><i class="icon icon-github"></i></a>
+						<a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="icon icon-twitter"></i></a>
+						<a href="/atom.xml"><i class="icon icon-rss"></i></a>
+					</div>
+				</a>
+				
 			</div>
 		</header>
 		<nav class="container">
