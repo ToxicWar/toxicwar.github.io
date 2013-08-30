@@ -1,0 +1,35 @@
+body {
+  padding: 0 20px;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.avatar {
+	float: right;
+	width: 70px;
+	height: 70px;
+	border: 0;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+nav .menu {
+  display: none;
+}
+
+header .social {
+  display: none;
+}
+
+section .posts span {
+  display: none;
+}
