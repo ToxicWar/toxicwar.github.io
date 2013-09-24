@@ -112,6 +112,20 @@ section .posts span {
 	color: #999;
 }
 
+section .post td {
+	border: solid black 1px
+}
+
+section .post table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+section .post table td, section .post table th {
+	border: 1px solid gray;
+	padding: 0 5px 0 5px;
+}
+
 
 /* Posts code */
 .post pre code {
