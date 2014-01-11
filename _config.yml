@@ -1,14 +1,27 @@
-name: Антон Ларкин
-url: http://toxicwar.com
-description: A fantastic blog that is fantastic.
-twitter: toxic_war
-github: toxicwar
-gravatar_url: http://ru.gravatar.com/avatar/d256089de053090019f11799ee0d595b
-
-markdown: rdiscount
-permalink: /posts/:title
+# Dependencies
+# markdown:         redcarpet
+markdown:         rdiscount
 rdiscount:
-  extensions: [smart]
-safe: true
-lsi: false
-pygments: true
+  extensions:     [smart]
+
+safe:             true
+lsi:              false
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Антон Ларкин'
+tagline:          'Блог о интересах'
+description:      'Фантастический блог фантастичен!'
+url:              http://toxicwar.github.io/
+
+author:
+  name:           'Антон Ларкин'
+  github:         https://github.com/ToxicWar
+  twitter:        https://twitter.com/toxic_war
+
+paginate:         5
+
+# Custom vars

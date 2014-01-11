@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Backbone.js и Django REST framework"
-date:   2013-09-18 00:00:00
 categories: django
 ---
 
