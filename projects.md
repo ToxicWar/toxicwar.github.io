@@ -18,3 +18,11 @@ title: Проекты
   </a>
   <p>Django приложение с bootstrap виджетом для поля DateTimeField.</p>
 </div>
+
+<div class="post project">
+  <h2><a href="http://toxicwar.github.io/cackling-skull/">Cackling skull</a></h2>
+  <a href="http://toxicwar.github.io/cackling-skull/">
+    <img src="/public/projects/cackling-skull.png">
+  </a>
+  <p>Шутящий череп из Gravity Falls, который был показан в серии "Summerween". В проекте задумывалась еще анимация смеха и звуковые шутки, но был оставлен на анимации нажатия и текстовом сообщении.</p>
+</div>
